@@ -6,7 +6,7 @@
 * @Ángel
 */
 public class Ejemplo2{
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
     System.out.print("Por favor, introduce un número: ");
     int primerNumeroInt = Integer.parseInt(System.console().readLine() );
@@ -21,5 +21,5 @@ public class Ejemplo2{
     System.out.print("El doble del primer número más el segundo es ");
     System.out.print(totalInt);
     
-    }
+  }
 }

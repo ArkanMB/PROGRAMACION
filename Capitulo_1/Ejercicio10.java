@@ -4,7 +4,7 @@
 */
 
 public class Ejercicio10 {
-    public static void main (String [] args) {
+  public static void main (String [] args) {
     System.out.println("                                  \033[34m██\033[90m        ");
     System.out.println("                                 \033[34m█████\033[90m      ");
     System.out.println("                        ████████\033[34m███████\033[90m     ");
@@ -41,6 +41,6 @@ public class Ejercicio10 {
     System.out.println("                              \033[30m████     ████ ");
     System.out.println("                                \033[30m█████████   ");
 
-}
+  }
 }
     

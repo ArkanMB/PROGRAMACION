@@ -6,12 +6,12 @@
 
 
 public class C2_1Ej2 {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         
-        String miNombreCompleto = "José Ángel Moya Baena";
+    String miNombreCompleto = "José Ángel Moya Baena";
 
-        System.out.println( "Mi nombre completo es: " + miNombreCompleto);
+    System.out.println( "Mi nombre completo es: " + miNombreCompleto);
 
-    }
+  }
     
 }

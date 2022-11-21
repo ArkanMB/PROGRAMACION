@@ -5,7 +5,7 @@
 */
 
 public class C2_1Ej1{
-   public static void main(String[] args) {
+  public static void main(String[] args) {
 
     int x;
     x=144;
@@ -30,5 +30,5 @@ public class C2_1Ej1{
     System.out.println("La multiplicación es: " + producto);
     System.out.println("La división es: " + cociente);
 
-   }
+  }
 }

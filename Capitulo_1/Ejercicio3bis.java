@@ -4,7 +4,7 @@
 */
 
 public class Ejercicio3bis {
-    public static void main (String [] args) {
+  public static void main (String [] args) {
                 
     System.out.printf("%-10s %-10s\n", "computer","ordenador"); 
     System.out.printf("%-10s %-10s\n", "student","estudiante"); 
@@ -16,6 +16,6 @@ public class Ejercicio3bis {
     System.out.printf("%-10s %-10s\n", "green","verde"); 
     System.out.printf("%-10s %-10s\n", "book","libro"); 
     System.out.printf("%-10s %-10s\n", "pyramid","piramide"); 
-    }
+  }
    
   }

@@ -9,14 +9,14 @@ import java.util.Scanner;
  */
 public class Ejercicio3{
   public static void main(String[] args) {
-  Scanner s = new Scanner(System.in); //Usamos Scanner para imprimir por pantalla más comodamente.
-  System.out.print("Escriba tu año, mes y día de nacimiento => ");
+    Scanner s = new Scanner(System.in); //Usamos Scanner para imprimir por pantalla más comodamente.
+    System.out.print("Escriba tu año, mes y día de nacimiento => ");
 
-  int año = s.nextInt(); 
-  String mes = s.next();
-  int dia = s.nextInt();
+    int año = s.nextInt(); 
+    String mes = s.next();
+    int dia = s.nextInt();
 
-  System.out.println("Mi fecha de nacimiento es: " + dia + " de " + mes+ " de " + año );        
+    System.out.println("Mi fecha de nacimiento es: " + dia + " de " + mes+ " de " + año );        
 
   }
 

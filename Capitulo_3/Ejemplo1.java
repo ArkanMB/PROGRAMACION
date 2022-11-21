@@ -7,15 +7,15 @@
  */
 
 public class Ejemplo1 {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         
-        String nombreString;
+    String nombreString;
 
-        System.out.print("Por favor, dime cómo te llamas: ");
+    System.out.print("Por favor, dime cómo te llamas: ");
 
-        nombreString = System.console().readLine();
+    nombreString = System.console().readLine();
 
-        System.out.println("Hola " + nombreString + ", encantadoo de conocertee!!");
-    }
+    System.out.println("Hola " + nombreString + ", encantadoo de conocertee!!");
+  }
     
 }
