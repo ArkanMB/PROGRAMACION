@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /* 
  * C6Ejercicio21.java
  * 
@@ -8,7 +10,7 @@
  * 
  * @ÁngelMB
 */
-import java.util.Scanner;
+
 public class C6Ej21 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
