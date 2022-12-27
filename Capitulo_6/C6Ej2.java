@@ -79,5 +79,7 @@ public class C6Ej2 {
 		default:
 		
 		}
+    System.out.println(" ");
+    System.out.println(" ");
 	}
 }
