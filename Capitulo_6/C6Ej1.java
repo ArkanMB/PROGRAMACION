@@ -23,7 +23,6 @@ public class C6Ej1 {
 		int tercera = (int)(Math.random()*6+1);
 		System.out.println(" Tercera tirada: " + tercera);
 		
-		
 		System.out.println("  ");
 		System.out.print("Las tres tiradas de dados dan como");
     System.out.print(" resultado esta suma: " + (primera + segunda + tercera));
