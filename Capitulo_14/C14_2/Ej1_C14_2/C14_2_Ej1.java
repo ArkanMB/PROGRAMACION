@@ -40,7 +40,7 @@ public class C14_2_Ej1 {
           num = Integer.parseInt(s.nextLine());
 
           // Si el número introducido es mayor que el número máximo actual
-          if (num > num) {
+          if (num > max) {
 
             // Actualizamos el valor de la variable 'max'
             max = num;
@@ -54,14 +54,14 @@ public class C14_2_Ej1 {
         } catch (NumberFormatException e) {
 
           // Mostramos un mensaje de error
-          System.out.println("Error: No has introducido un número entero correcto.");
+          System.out.println("Error: No has introducido un número entero.");
         }
 
         // El bucle se repetirá mientras el número introducido no sea correcto
       } while (!correcto);
     }
 
-    // Mostramos el número máximoº
+    // Mostramos el número máximo
     System.out.println("El número máximo de los que has dado es " + max);
 
     // Cerramos el objeto Scanner para evitar problemas de recursos
