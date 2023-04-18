@@ -71,7 +71,7 @@ public class PruebaVehiculos2 {
           break;
 
         case 2:
-        bicicleta.hazCaballito2();
+          bicicleta.hazCaballito2();
           break;
 
         case 3:
@@ -81,7 +81,7 @@ public class PruebaVehiculos2 {
           break;
 
         case 4:
-        coche.quemaRueda2();
+          coche.quemaRueda2();
           break;
 
         case 5:
@@ -98,6 +98,7 @@ public class PruebaVehiculos2 {
           System.out.println("Los vehículos llevan recorridos ");
           System.out.println(Vehiculo2.getKilometrosTotales2() + " Km");
         default:
+          System.out.println("No has puesto un número válido: " + option);
 
       } // switch
 

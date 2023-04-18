@@ -1,7 +1,9 @@
-/*
- * Bicicleta.java
+/**
+ * @file: Bicicleta2.java
  * 
- * Bicibleta es un tipo de vehículo 
+ * @info: clase "Bicicleta2"
+ * 
+ * @author: José Ángel Moya Baena
  */
 
 public class Bicicleta2 extends Vehiculo2 {
@@ -13,6 +15,6 @@ public class Bicicleta2 extends Vehiculo2 {
   }
 
   public void hazCaballito2() {
-    System.out.println("Estoy haciendo el caballito");  
+    System.out.println("Estoy haciendo el caballito");
   }
 }

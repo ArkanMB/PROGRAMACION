@@ -1,7 +1,7 @@
 /**
  * @file: Vehiculos2.java
  * 
- * @info:
+ * @info: clase "Vehiculo2"
  * 
  * @author: José Ángel Moya Baena
  */
@@ -16,7 +16,7 @@ public abstract class Vehiculo2 {
 
   private int kilometrosRecorridos2;
 
-  public Vehiculo() {
+  public Vehiculo2() {
 
     this.kilometrosRecorridos2 = 0;
 
@@ -29,7 +29,7 @@ public abstract class Vehiculo2 {
 
   public static int getKilometrosTotales2() {
 
-    return Vehiculo.kilometrosTotales2;
+    return Vehiculo2.kilometrosTotales2;
 
   }
 
