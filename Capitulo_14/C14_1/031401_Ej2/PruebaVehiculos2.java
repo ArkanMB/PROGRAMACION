@@ -99,6 +99,10 @@ public class PruebaVehiculos2 {
           System.out.println(Vehiculo2.getKilometrosTotales2() + " Km");
           break;
 
+        case 8:
+          System.out.println("Nos vemos pronto!!\n");
+          break;
+
         default:
           System.out.println("No has puesto un número válido: " + option);
 
