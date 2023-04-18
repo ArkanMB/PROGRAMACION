@@ -97,6 +97,8 @@ public class PruebaVehiculos2 {
         case 7:
           System.out.println("Los vehículos llevan recorridos ");
           System.out.println(Vehiculo2.getKilometrosTotales2() + " Km");
+          break;
+
         default:
           System.out.println("No has puesto un número válido: " + option);
 
