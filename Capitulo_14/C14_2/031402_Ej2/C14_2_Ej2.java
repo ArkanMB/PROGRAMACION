@@ -1,19 +1,21 @@
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Random;
 
 /**
  * @file: Ej2_C14_2_.java
  * 
- * @info: Realiza un programa que genere una excepción de forma aleatoria de entre
- *        las siguientes excepciones: NumberFormatException, IOException, FileNotFoundException,
- *        IndexOutOfBoundsException y ArithmeticException.
+ * @info: Realiza un programa que genere una excepción de forma aleatoria de
+ *        entre las siguientes excepciones: NumberFormatException, IOException,
+ *        FileNotFoundException, IndexOutOfBoundsException y
+ *        ArithmeticException.
  * 
  * @author: Jose Angel Moya Baena
  */
 
 public class C14_2_Ej2 {
 
-  public static void main (String[] args) {
+  public static void main(String[] args) {
 
     // Creamos un objeto Random para generar un número aleatorio del 0 al 4
     Random random = new Random();
@@ -28,6 +30,7 @@ public class C14_2_Ej2 {
     System.out.println("Excepcion que se genera aleatoriamente id => " + (idExp + 1));
 
     try {
+
       // Con un switch generamos una excepción aleatoria dependiendo del número
       // aleatorio generado
       switch (idExp) {
@@ -43,6 +46,7 @@ public class C14_2_Ej2 {
           throw new ArithmeticException("Excepción aleatoria: ArithmeticException");
       }
     } catch (Exception e) {
+
       // Si se produce alguna excepción, se muestra el mensaje correspondiente
       System.out.println(e.getMessage());
     }
