@@ -1,5 +1,12 @@
-package TRABAJOS .ProgramacionGithub.Capitulo_14.C14_1.Ej2_exp;
+
+/**
+ * @file: 
+ * 
+ * @info:
+ * 
+ * @author: Jose Angel Moya Baena
+ */
 
 public class Ej2_exp {
-  
+
 }

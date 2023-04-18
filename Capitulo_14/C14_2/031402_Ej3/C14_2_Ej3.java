@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Random;
 
 /**
- * @file: Ej2_C14_2_.java
+ * @file: Ej2_C14_3.java
  * 
  * @info: Realiza un programa que genere una excepción de forma aleatoria de
  *        entre las siguientes excepciones: NumberFormatException, IOException,
