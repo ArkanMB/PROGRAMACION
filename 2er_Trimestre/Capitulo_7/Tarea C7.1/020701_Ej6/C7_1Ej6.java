@@ -56,7 +56,6 @@ public class C7_1Ej6 {
 
     System.out.println();
     
-
   }
 
 }
