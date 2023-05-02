@@ -31,6 +31,8 @@ public class C7_1Ej6 {
 
     }
 
+    s.close();
+
     // Almacenamos primero el último elemento del array en una variable temporal
     int t = numeros[14];
 
@@ -51,5 +53,10 @@ public class C7_1Ej6 {
       System.out.print(numeros[i] + " ");
 
     }
+
+    System.out.println();
+    
+
   }
+
 }
