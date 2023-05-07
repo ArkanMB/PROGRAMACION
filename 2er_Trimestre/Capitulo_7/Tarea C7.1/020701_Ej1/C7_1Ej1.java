@@ -22,7 +22,7 @@ public class C7_1Ej1 {
     // Creamos un array de enteros con una longitud de 12
     int[] num = new int[12];
 
-    // Asignamos valores a los elementos de la imagen del enunciado
+    // Asignamos valores a los elementos de la imagen del enunciado01234567'0986º134
     num[0] = 39;
     num[1] = -2;
     num[4] = 0;
