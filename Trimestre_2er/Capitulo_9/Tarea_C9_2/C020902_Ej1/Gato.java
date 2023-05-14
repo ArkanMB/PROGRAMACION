@@ -98,7 +98,7 @@ public class Gato {
 
   public void come(int sardina) {
 
-    // comprobar si hay suficientes sardinas
+    // Comprobamos si hay suficientes sardinas
     if (sardinas >= sardina) {
 
       // Restamos la cantidad de sardinas que come el gato a la cantidad total de
