@@ -1,5 +1,7 @@
 package uno_examen;
 
+import org.w3c.dom.html.HTMLButtonElement;
+
 /**
  * Clase Uno: Juego de cartas simulado con jugadas aleatorias.
  * Contiene el programa principal (main) ejecutable para el juego Uno.
@@ -114,16 +116,16 @@ public class Uno {
       // Generamos un número aleatorio entre 0 y la variable (i) usando
       // Math.random()
       int numAleatorio = (int) (Math.random() * (i + 1));
-      
+
       // Utilizamos una variable temporal (temp) para almacenar temporalmente la carta
       // en la posicion actual (i)
       Carta temp = cartas[i];
-      
+
       // Intercambiamos la carta en la posicion actual (i) por la carta en la posicion
       // aleatoria
       cartas[i] = cartas[numAleatorio];
       cartas[numAleatorio] = temp;
-      
+
     }
     // El método se repite todo el tiempo hasta que se barajen todas las cartas en
     // el array

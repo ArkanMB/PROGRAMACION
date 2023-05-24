@@ -16,10 +16,10 @@ package uno_examen;
 public class Carta {
 
   // Número de la carta
-  private int numero;
+  public int numero;
 
   // Color de la carta
-  private String color;
+  public String color;
 
   // Carta actualmente en juego
   private static Carta cartaEnJuego;
