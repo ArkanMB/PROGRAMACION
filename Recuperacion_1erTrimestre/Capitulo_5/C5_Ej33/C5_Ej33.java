@@ -12,7 +12,7 @@ public class C5_Ej33 {
 
   public static void main(String[] args) {
 
-    
+
 
   }
 
