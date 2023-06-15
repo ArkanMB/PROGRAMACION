@@ -1,5 +1,10 @@
-package Tarea5.T5_1.T5_1Ej1;
+/**
+ * T5_3Ej2
+ */
+public class T5_3Ej2 {
 
-public class T5_3Ej1 {
-  
+  public static void main(String[] args) {
+
+  }
+
 }
